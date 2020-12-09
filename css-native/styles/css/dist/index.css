@@ -1,0 +1,242 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  quotes: none;
+  text-decoration: unset;
+  outline: none;
+  border: none;
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  height: 100%;
+  width: 100%;
+  max-width: 1500px;
+  position: relative;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif !important;
+  overflow-x: hidden;
+  margin: 0px auto; }
+
+a, button {
+  cursor: pointer; }
+
+#nav {
+  width: 100%;
+  padding: 30px 90px;
+  display: flex; }
+  #nav .nav-logo {
+    display: flex;
+    align-items: center;
+    flex-basis: 22%; }
+  #nav .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 56%; }
+    #nav .nav-link a {
+      margin: 0px 15px;
+      font-weight: 400;
+      font-size: 18px;
+      color: #888AA2; }
+    #nav .nav-link .active {
+      color: #222534; }
+  #nav .nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 22%; }
+    #nav .nav-button a {
+      background-color: #EFF3F8;
+      display: block;
+      padding: 0.6rem 1.2rem;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      color: #898BA3;
+      border-radius: 6px; }
+
+#header {
+  width: 100%; }
+  #header .item {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    padding: 0px;
+    border-radius: 14px;
+    overflow: hidden; }
+    #header .item .header-love-cover {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      border-radius: 50%;
+      background-color: #fff; }
+    #header .item .header-cover-text {
+      height: 37.5%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      bottom: 0px;
+      background: linear-gradient(360deg, #222534 0%, rgba(34, 37, 52, 0) 100%);
+      padding: 50px;
+      border-radius: 14px;
+      z-index: 10; }
+      #header .item .header-cover-text .header-text-right a {
+        background-color: #1F4AA8;
+        padding: 0.6rem 1.2rem;
+        font-weight: 500;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 6px; }
+      #header .item .header-cover-text .header-text-left h2 {
+        font-weight: 500;
+        font-size: 32px;
+        margin-bottom: 15px; }
+        #header .item .header-cover-text .header-text-left h2 a {
+          color: #fff; }
+      #header .item .header-cover-text .header-text-left span {
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff; }
+    #header .item img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      border-radius: 14px; }
+
+#hero {
+  width: 100%;
+  padding: 50px 90px; }
+  #hero img {
+    width: 100%; }
+
+#main {
+  width: 100%;
+  padding: 90px 90px 70px;
+  background-color: #F1F5FA; }
+  #main .main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    #main .main-container .main-container-container {
+      flex-basis: calc(25% - 20px); }
+      #main .main-container .main-container-container article {
+        position: relative;
+        margin-bottom: 20px;
+        border-radius: 14px; }
+        #main .main-container .main-container-container article .main-cover-text {
+          height: 37.5%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          position: absolute;
+          bottom: 0px;
+          background: linear-gradient(360deg, rgba(34, 37, 52, 0.6) 0%, rgba(34, 37, 52, 0) 100%);
+          padding: 25px;
+          border-radius: 14px;
+          z-index: 10; }
+          #main .main-container .main-container-container article .main-cover-text h2 {
+            font-weight: 500;
+            font-size: 22px; }
+            #main .main-container .main-container-container article .main-cover-text h2 a {
+              color: #fff; }
+          #main .main-container .main-container-container article .main-cover-text div {
+            font-weight: 400;
+            font-size: 16px;
+            color: #fff; }
+        #main .main-container .main-container-container article h3 {
+          font-weight: 500;
+          font-size: 32px;
+          color: #222534; }
+        #main .main-container .main-container-container article img {
+          width: 100%;
+          height: 100%;
+          border-radius: 14px; }
+
+#customers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 90px; }
+  #customers h3 {
+    margin-bottom: 108px;
+    flex-basis: 100%;
+    font-weight: 500;
+    font-size: 32px;
+    color: #222534;
+    text-align: center; }
+  #customers .customers-left, #customers .customers-center, #customers .customers-right {
+    flex-basis: 33.33%;
+    position: relative; }
+  #customers .customers-left .img-1 {
+    position: absolute;
+    top: -40px;
+    right: 60px; }
+  #customers .customers-left .img-2 {
+    position: absolute;
+    top: 40px; }
+  #customers .customers-left .img-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #customers .customers-center .card {
+    padding: 30px;
+    border: 1px solid #E7E7E7;
+    border-radius: 18px; }
+  #customers .customers-center .card-header {
+    position: relative;
+    text-align: center;
+    height: 0px; }
+    #customers .customers-center .card-header img {
+      position: relative;
+      top: -91px; }
+  #customers .customers-center .card-body {
+    margin-top: 45px;
+    text-align: center; }
+    #customers .customers-center .card-body h4 {
+      font-weight: 500;
+      font-size: 18px;
+      color: #222534; }
+    #customers .customers-center .card-body p {
+      margin: 15px 0px;
+      font-weight: 400;
+      font-size: 14px;
+      color: #888AA2; }
+  #customers .customers-center .view-all-stories {
+    display: block;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #1F4AA8;
+    text-decoration: underline;
+    text-align: center; }
+  #customers .customers-right .img-1 {
+    position: absolute;
+    top: -20px;
+    left: 120px; }
+  #customers .customers-right .img-2 {
+    position: absolute;
+    top: 60px;
+    right: 0px; }
+  #customers .customers-right .img-3 {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%); }
+
+/*# sourceMappingURL=index.css.map */
